@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <canvas id="myChart"></canvas>
+        <a href="/view/index.html"></a>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script>
+
+        // let porcentaje = localStorage.getItem('porcentajeGlobal');
+        // console.log(porcentaje)
+        let porcentajes = [1,10,4,5]
+        
+          const labels = [
+            'a','b','c','d'
+        ];
+
+        const data = {
+            labels: labels,
+            datasets: [{
+            label: 'Ayuda publico',
+            backgroundColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(255, 99, 132)',
+            data: porcentajes,
+            }]
+        };
+
+        const config = {
+            type: 'bar',
+            data: data,
+            options: {}
+        };
+
+        const myChart = new Chart(
+            document.getElementById('myChart'),
+            config
+        );
+      </script>
+    
+</body>
+</html>
