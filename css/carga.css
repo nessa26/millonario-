@@ -1,0 +1,37 @@
+body{
+    background: url('../img/fondo.jpg')center center no-repeat;
+    width: 100vw;
+    height:970px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+}
+
+.button{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+input{
+    width: 200px; 
+    height: 50px; 
+    background: #444596;
+    border-radius:10px ;
+    border: solid  #635dc5;
+    color: antiquewhite;
+    font-size: 25px;
+    font-size: large;
+    font-weight: 900;
+    outline: none;
+    cursor: pointer;
+}
+
+input:hover{
+    background: #9888c6  ;
+    border:solid #c2c1d1;
+    color: rgb(0, 0, 0);
+}
