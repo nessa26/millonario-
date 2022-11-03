@@ -55,6 +55,11 @@
     }  
  }
 
+ function verificar() {
+        
+ }
+
+
  respuestas.forEach(respuestaCorrecta);
 
 
@@ -110,6 +115,8 @@
 
 respuestas.forEach(ayudaPublico);
 console.log(porcentajespublico);
+//alert(["A "+":"+porcentajespublico[0],"B "+":"+porcentajespublico[1],
+//"C "+":"+porcentajespublico[2],"D "+":"+porcentajespublico[3]]);
 // let porcentajeGlobal = localStorage.setItem(porcentajes);
 
 
