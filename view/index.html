@@ -5,31 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <title>Quien quiere ser millonario</title>
 </head>
 <body>
     <div class="container">
+
         <div class="container-answers">
             <div class="logo">
-                <img src="../img/logo.png" alt="">
+                <img class="logo" src="../img/logo.png" alt="">
             </div>
-            <div class="question" id="question">
-                <h4>Pregunta</h4>
-            </div>
-            <div class="answers">
-                
-                <div class="answer"><a class="answer" id="answerA" href="#">A</a>A</div>
-                <div class="answer"><a class="answer" id="answerB" href="#">B</a>B</div>
-                <div class="answer"><a class="answer" id="answerC" href="#">C</a>C</div>
-                <div class="answer"><a class="answer" id="answerD" href="#">D</a>D</div>
+
+            <div>
+                <div class="question" id="question">
+                    <h4 class="statement">pregunta</h4>
+                </div>
+                <div class="answers">
+                    <a class="answer" href="#"><input class="answ" id="answerA" type="button" value="a">a</a>
+                    <a class="answer" href="#"><input class="answ" id="answerB" type="button" value="a">b</a>
+                    <a class="answer" href="#"><input class="answ" id="answerC" type="button" value="a">c</a>
+                    <a class="answer" href="#"><input class="answ" id="answerD" type="button" value="a">d</a>
+                </div>
             </div>
         </div>
+
         <div class="assistance">
-            <div class="help" id="public"><a href="#"><img src="../img/publico.png" alt=""></a></div>
-            <div class="help" id="fifty"><a href="#"><img src="../img/dividido.png" alt=""></a></div>
-            <div class="help" id="friends"><a href="#"><img src="../img/amigo.png" alt=""></a></div>
-             
+            <div class="help" id="public">
+                <a href="#">
+                    <img class="img" src="../img/publico.png" alt="">
+                    <p>Público</p>
+                </a>
+                
+            </div>
+            <div class="help" id="fifty">
+                <a href="#">
+                    <img class="img" src="../img/dividido.png" alt="">
+                    <p>50/50</p>
+                </a>
+                    
+            </div>
         </div>
+
     </div>
     <script src="../js/script.js"></script>
 </body>
